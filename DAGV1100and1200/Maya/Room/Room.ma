@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Room.ma
-//Last modified: Tue, Sep 30, 2025 03:40:42 AM
+//Last modified: Tue, Sep 30, 2025 03:44:13 AM
 //Codeset: 1252
 file -rdi 1 -ns "cup" -rfn "cupRN" -op "VERS|2026|UVER|undef|MADE|undef|CHNG|Mon, Sep 22, 2025 10:41:08 PM|ICON|undef|INFO|undef|OBJN|19|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|TDUR|141120000|"
 		 -typ "mayaBinary" "C:/Users/owner/Documents/My Games/GitHub/Essentials/DAGV1100and1200/Maya/Room//cup.mb";
@@ -16,11 +16,11 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "02AC904C-4EC9-0954-BF55-5D8516D3F076";
+fileInfo "UUID" "C2CE2DC2-4407-9214-E32A-5093A29B0D53";
 createNode transform -s -n "persp";
 	rename -uid "BA462824-4517-6419-4914-22A50BA10CBA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 29.824107291583672 31.2854951567668 44.026265843926581 ;
+	setAttr ".t" -type "double3" 42.034843813953358 40.808702423642828 60.468036519514854 ;
 	setAttr ".r" -type "double3" 335.06164727158182 1116.5999999995715 0 ;
 	setAttr ".rp" -type "double3" -1.4210854715202004e-14 1.4210854715202004e-14 -5.6843418860808015e-14 ;
 	setAttr ".rpt" -type "double3" -1.066323858086166e-14 -3.7576679193839571e-14 1.0654642460885751e-13 ;
@@ -28,7 +28,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BEE427B0-4AE2-C1B5-B027-D5B958FC5092";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 71.847823026099277;
+	setAttr ".coi" 94.433778529802225;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
