@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Room.ma
-//Last modified: Tue, Oct 21, 2025 11:53:26 PM
+//Last modified: Wed, Oct 22, 2025 12:08:34 AM
 //Codeset: 1252
 file -rdi 1 -ns "cup" -rfn "cupRN" -op "VERS|2025ff03|UVER|undef|MADE|undef|CHNG|Wed, Oct 15, 2025 04:07:12 PM|ICON|undef|INFO|undef|OBJN|158|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|TDUR|141120000|"
 		 -typ "mayaBinary" "C:/Users/owner/Documents/My Games/GitHub/Essentials/DAGV1100and1200/Maya/Room//cup.mb";
@@ -26,23 +26,23 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "B8CC9233-4012-2488-32B0-CD85D319A3F6";
+fileInfo "UUID" "F6506E21-40EF-EC2C-337A-758E387F1E44";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "BA462824-4517-6419-4914-22A50BA10CBA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 17.839493727832334 25.249246162127392 30.635630272449092 ;
-	setAttr ".r" -type "double3" -29.399999999999213 29.600000000000289 0 ;
+	setAttr ".t" -type "double3" 19.999577430207005 21.353280484841619 26.023322552105487 ;
+	setAttr ".r" -type "double3" -29.399999999995543 35.200000000000692 -1.9461387374159014e-15 ;
 	setAttr ".rpt" -type "double3" -1.4524711135171144e-14 -1.9743633820935944e-15 1.0632430279139204e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BEE427B0-4AE2-C1B5-B027-D5B958FC5092";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 36.497195702017336;
+	setAttr ".coi" 28.081981842915095;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 10.088535429427274 11.577431230374154 -6.630234954630267 ;
+	setAttr ".tp" -type "double3" 8 2.5616164207458496 8 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "419FE9D1-43DA-C193-E400-4491F77259DE";
@@ -5391,7 +5391,7 @@ createNode mesh -n "polySurfaceShape5" -p "Chair_Mesh2";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode fosterParent -n "cupRNfosterParent1";
-	rename -uid "805EA14D-4D25-ABAD-AEEA-BF96AC38D633";
+	rename -uid "9EDB8F12-47B1-65E9-172A-FC9387EB8C70";
 createNode mesh -n "cup:polySurfaceShape2" -p "cupRNfosterParent1";
 	rename -uid "AA98A351-4305-1E5C-0E3B-B49F4EB6EF8C";
 	addAttr -ci true -h true -sn "_gbp" -ln "gpuBlockPolicy" -at "short";
