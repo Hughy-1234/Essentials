@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: RealRoomFR.ma
-//Last modified: Fri, Oct 31, 2025 01:20:46 AM
+//Last modified: Fri, Oct 31, 2025 02:28:24 AM
 //Codeset: 1252
 file -rdi 1 -ns "Vase" -dr 1 -rfn "VaseRN" -op "v=0;" -typ "mayaAscii" "C:/Users/owner/Documents/My Games/GitHub/Essentials/DAGV1100and1200/Maya/Room//Vase.ma";
 file -rdi 1 -ns "RealCup" -dr 1 -rfn "RealCupRN" -op "v=0;" -typ "mayaAscii"
@@ -21,7 +21,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "3B200712-457B-7DAD-ED62-4F8267AB6454";
+fileInfo "UUID" "A5740956-457C-0C1B-969C-8FB95C9E6039";
 createNode transform -n "group1";
 	rename -uid "1873CF0F-49CA-9F43-4E15-FC869B0B4B27";
 	setAttr ".t" -type "double3" 3.830368481064411 0 0 ;
@@ -30,8 +30,8 @@ createNode transform -n "group1";
 createNode transform -s -n "persp";
 	rename -uid "E2F25465-49D1-16AF-AEAB-2AAD85DE0128";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 32.788468329056414 38.033435110725854 65.206595079543462 ;
-	setAttr ".r" -type "double3" 155.00246189782368 507.50822143746905 -179.99999999997488 ;
+	setAttr ".t" -type "double3" 43.239763684233658 37.22897127958143 57.710623766857935 ;
+	setAttr ".r" -type "double3" 155.60246189782529 497.90822143746567 -179.99999999997021 ;
 	setAttr ".rp" -type "double3" 9.0205620750793969e-16 3.5527136788005009e-15 -1.4210854715202004e-14 ;
 	setAttr ".rpt" -type "double3" -1.3307925294962795e-14 5.4865191077869643e-15 3.7222911057931873e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -10749,7 +10749,7 @@ createNode transform -n "group8";
 	setAttr ".sp" -type "double3" -8.3781855986890221 2.301979813237955 6.7627020111933014 ;
 createNode transform -n "Couchref4:pasted__pasted__pCube4" -p "group8";
 	rename -uid "C000ECBE-4BFD-82AF-7A69-AE8664EAA5D6";
-	setAttr ".t" -type "double3" -14.482414717829576 2.3713772281428604 6.9562162992626266 ;
+	setAttr ".t" -type "double3" -14.482414717829569 2.4244800930311059 6.9548476713989213 ;
 	setAttr -av ".tx";
 	setAttr -av ".ty";
 	setAttr -av ".tz";
@@ -12430,7 +12430,7 @@ createNode transform -n "Couchref6:group8" -p "group10";
 	setAttr ".sp" -type "double3" -1.8920146396559581 3.4824024051544664 -1.3150705829131559 ;
 createNode transform -n "Couchref6:pasted__pasted__pasted__pCube2" -p "Couchref6:group8";
 	rename -uid "6DC6D787-49A4-4AAA-5B93-7DB27310047C";
-	setAttr ".t" -type "double3" -20.210758532505473 4.0971883956293738 0.80658231579375972 ;
+	setAttr ".t" -type "double3" -20.210758532505473 4.0971883956293738 0.78206795364010606 ;
 	setAttr -av ".tx";
 	setAttr -av ".ty";
 	setAttr -av ".tz";
